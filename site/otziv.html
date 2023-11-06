@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзыв</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <h2> Оставить отзыв:</h2>
+    <form action="https://www.bing.com/" id="UserEnter" name="UserEnter" target="_blank">
+    <p> Введите ваш логин: <input type="Text" name="login" size=20  value="iiivanov@edu_hse.ru"></p>
+    <p> Введите ваш пароль: <input type="Password" name="password" size=9  value="123456789"></p>
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="9">
+    <p>Введите дату вашего рождения: <input type="date" name="birthday_date"  value='2004-03-21'></p>
+    <p>Оцените качество нашего сайта от 0 до 10: <input type="Number" name="ocenka" size=20 value="10"></p>
+    <p>Как часто появляетесь у нас на сайте?
+        <input type="Radio" name="vpervie" value="vpervie">Впервые
+        <input type="Radio" name="periodicheski" value="periodicheski">Периодически
+    </p>
+    <p>Какие из предложенных коктейлей вы попробовали сделать?
+        <input type="Checkbox" name="margarita"  value="0"> Маргарита
+        <input type="Checkbox"  name="golubaya laguna"   value="0"> Голубая лагуна
+        <input type="Checkbox"  name="zelenaya feya"   value="0">Зелёная фея
+        <input type="Checkbox"  name="tom kollinz"   value="0"> Том Коллинз
+        <input type="Checkbox"  name="pina kolada"   value="0">Пина Колада
+        <input type="Checkbox" name="tekila sanraiz" value="0"> Текила Санрайз
+    </p>
+
+
+    <p>
+        Ваш отзыв:
+        <br><TEXTAREA cols=80 name="textarea" rows=4>Напишите, что вам всё понравилось...)</TEXTAREA>
+    </p>
+    <input type="Submit" name="submit"  value="Отправить">
+    </form>
+</body>
+</html>
